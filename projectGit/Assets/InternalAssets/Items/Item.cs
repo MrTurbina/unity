@@ -37,7 +37,14 @@ public class Item : MonoBehaviour
         Destroy(EquippedItem);
     }
     public void PrimaryAction(Transform origin) {
-        var bullet = Instantiate(PrimaryActionObject, origin.position, origin.localRotation);
-        bullet.GetComponent<Bullet>().Shoot();
+        GameObject bullet = Instantiate(
+            PrimaryActionObject,
+            origin.position,
+            // origin.localRotation
+            Quaternion.identity
+        );
+        bullet.transform.rotation = origin.localRotation;
+        Bullet bullProps = bullet.GetComponent<Bullet>();
+        bullProps.Shoot();
     }
 }
