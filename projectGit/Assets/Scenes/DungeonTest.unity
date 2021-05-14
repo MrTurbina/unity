@@ -238,6 +238,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4541458262005730947, guid: f85f5b9e46e38b148a87a6929a35071f, type: 3}
+      propertyPath: Velocidad
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541458262005730947, guid: f85f5b9e46e38b148a87a6929a35071f, type: 3}
+      propertyPath: mask.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8652597645970984961, guid: f85f5b9e46e38b148a87a6929a35071f, type: 3}
       propertyPath: m_RootOrder
       value: 0
