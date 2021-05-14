@@ -303,6 +303,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 448975254778884659, guid: c2e3c475ea4f2f34e891ce2195bc82b7, type: 3}
+      propertyPath: m_Radius
+      value: 2.9631546
+      objectReference: {fileID: 0}
+    - target: {fileID: 448975254778884659, guid: c2e3c475ea4f2f34e891ce2195bc82b7, type: 3}
+      propertyPath: m_Center.x
+      value: -0.035698015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931916523840329951, guid: c2e3c475ea4f2f34e891ce2195bc82b7, type: 3}
+      propertyPath: m_Height
+      value: 23.998991
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931916523840329951, guid: c2e3c475ea4f2f34e891ce2195bc82b7, type: 3}
+      propertyPath: m_Radius
+      value: 1.1999496
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931916523840329951, guid: c2e3c475ea4f2f34e891ce2195bc82b7, type: 3}
+      propertyPath: m_Center.x
+      value: 0.14826548
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931916523840329951, guid: c2e3c475ea4f2f34e891ce2195bc82b7, type: 3}
+      propertyPath: m_Center.y
+      value: -3.388127e-21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931916523840329951, guid: c2e3c475ea4f2f34e891ce2195bc82b7, type: 3}
+      propertyPath: m_Center.z
+      value: -0.00000011920929
+      objectReference: {fileID: 0}
     - target: {fileID: 4772117176965941744, guid: c2e3c475ea4f2f34e891ce2195bc82b7, type: 3}
       propertyPath: m_Name
       value: OrbOfLife

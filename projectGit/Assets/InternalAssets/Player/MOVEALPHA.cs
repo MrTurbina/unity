@@ -27,7 +27,7 @@ public class MOVEALPHA : MonoBehaviour
     void FixedUpdate()
     {
   
-        Movimiento= new Vector3(Input.GetAxisRaw("Horizontal"),Input.GetAxisRaw("Vertical"));
+        Movimiento= new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Movimiento, rayotamaño,mask);
         Debug.DrawRay(transform.position, Movimiento*rayotamaño,Color.red);
