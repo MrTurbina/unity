@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2844405650146873043}
   - component: {fileID: 7886980631959836929}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40746c67ab1188445ba3914ad489f82b, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 6401887536451578352}
   - component: {fileID: 4478005226320001779}
   - component: {fileID: 4139786992742033761}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,7 +144,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40746c67ab1188445ba3914ad489f82b, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 2690927551336472484}
   - component: {fileID: 2358278716223287524}
   - component: {fileID: -7867864792921408165}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40746c67ab1188445ba3914ad489f82b, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

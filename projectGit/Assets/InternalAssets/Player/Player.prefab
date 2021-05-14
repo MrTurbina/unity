@@ -302,6 +302,7 @@ GameObject:
   - component: {fileID: 8652597645970985022}
   - component: {fileID: 868490906624901767}
   - component: {fileID: 8652597645970985023}
+  - component: {fileID: 4541458262005730947}
   - component: {fileID: 8652597645970984963}
   - component: {fileID: 736868862395798359}
   m_Layer: 0
@@ -365,11 +366,30 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8652597645970985020}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee917e52606f9cf4aaa745901a46ae6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4541458262005730947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652597645970985020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99bcf72093d7be743a7a66998c22a53c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Movimiento: {x: 0, y: 0, z: 0}
+  Velocidad: 50
+  transitable: 0
+  "rayotama\xF1o": 2
+  mask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &8652597645970984963
 Rigidbody2D:
   serializedVersion: 4
