@@ -7,6 +7,7 @@ public class Stats : MonoBehaviour
     // Start is called before the first frame update
     public int life = 3;
     public int maxLife = 4;
+    
     void Start()
     {
         
