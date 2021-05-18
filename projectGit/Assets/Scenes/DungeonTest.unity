@@ -1222,5 +1222,13 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.0012939215
       objectReference: {fileID: 0}
+    - target: {fileID: 8018461098909457602, guid: 083a4ce563a11864a90a1b75493fbebd, type: 3}
+      propertyPath: visionradius
+      value: 2.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018461098909457602, guid: 083a4ce563a11864a90a1b75493fbebd, type: 3}
+      propertyPath: zonoinsegura
+      value: 2.95
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 083a4ce563a11864a90a1b75493fbebd, type: 3}
